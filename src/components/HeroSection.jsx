@@ -106,7 +106,7 @@ export default function HeroSection() {
   return (
     <div className="bg-[#1C1C1C] text-white">
       {/* Adjusting the grid to be responsive */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 w-[70%] mx-auto ">
         {cardData.map((card, index) => (
           <article key={index} className=" p-4 rounded-lg">
             <img
